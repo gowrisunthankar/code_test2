@@ -1,0 +1,224 @@
+.nav{
+    background-color: rgb(242, 201, 140);
+}
+.buttn{
+    float:  right;
+    margin-top: auto;
+  
+}
+.btn{
+    background-color: blueviolet;
+    color: aliceblue;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 30px;
+   
+
+}
+.bg{
+    background-color:rgb(12, 239, 220) ;
+    background-size: auto;
+    
+}
+.box1{
+    background-color: rgb(42, 237, 42);
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    animation: move1 5s infinite;
+    animation-timing-function: linear;
+}
+@keyframes move1 {
+    from{left: 0px;}
+    to{left: 300px;}
+    
+}
+
+.box2{
+    background-color: rgb(215, 14, 18);
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    animation: move1 5s infinite;
+    animation-timing-function: ease;
+}
+@keyframes move1 {
+    from{left: 0px;}
+    to{left: 300px;}
+    
+}
+
+.box3{
+    background-color: rgb(42, 237, 42);
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    animation: move1 5s infinite;
+    animation-timing-function: ease-in;
+}
+@keyframes move1 {
+    from{left: 0px;}
+    to{left: 300px;}
+    
+}
+
+.box4{
+    background-color: rgb(235, 16, 45);
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    animation: move1 5s infinite;
+    animation-timing-function: ease-out;
+}
+@keyframes move1 {
+    from{left: 0px;}
+    to{left: 300px;}
+    
+}
+
+.box5{
+    background-color: rgb(42, 237, 42);
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    animation: move1 5s infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes move1 {
+    from{left: 0px;}
+    to{left: 300px;}
+    
+}
+@media screen and (min-width:400px) and (mix-width:700px){
+    .nav{
+        background-color: rgb(242, 201, 140);
+    }
+    .buttn{
+        float:  right;
+        margin-top: auto;
+      
+    }
+    .btn{
+        background-color: blueviolet;
+        color: aliceblue;
+        border: 2px solid black;
+        border-radius: 5px;
+        height: 30px;
+       
+    
+    }
+    .bg{
+        background-color:rgb(12, 239, 220) ;
+        background-size: cover;
+        
+    }
+    .box1{
+        background-color: rgb(42, 237, 42);
+        border: 2px solid black;
+        border-radius: 5px;
+        height: 50px;
+        width: 150px;
+        text-align: center;
+        font-weight: bold;
+        position: relative;
+        animation: move1 5s infinite;
+        animation-timing-function: linear;
+    }
+    @keyframes move1 {
+        from{left: 0px;}
+        to{left: 300px;}
+        
+    }
+    
+    .box2{
+        background-color: rgb(215, 14, 18);
+        border: 2px solid black;
+        border-radius: 5px;
+        height: 50px;
+        width: 150px;
+        text-align: center;
+        font-weight: bold;
+        position: relative;
+        animation: move1 5s infinite;
+        animation-timing-function: ease;
+    }
+    @keyframes move1 {
+        from{left: 0px;}
+        to{left: 300px;}
+        
+    }
+    
+    .box3{
+        background-color: rgb(42, 237, 42);
+        border: 2px solid black;
+        border-radius: 5px;
+        height: 50px;
+        width: 150px;
+        text-align: center;
+        font-weight: bold;
+        position: relative;
+        animation: move1 5s infinite;
+        animation-timing-function: ease-in;
+    }
+    @keyframes move1 {
+        from{left: 0px;}
+        to{left: 300px;}
+        
+    }
+    
+    .box4{
+        background-color: rgb(235, 16, 45);
+        border: 2px solid black;
+        border-radius: 5px;
+        height: 50px;
+        width: 150px;
+        text-align: center;
+        font-weight: bold;
+        position: relative;
+        animation: move1 5s infinite;
+        animation-timing-function: ease-out;
+    }
+    @keyframes move1 {
+        from{left: 0px;}
+        to{left: 300px;}
+        
+    }
+    
+    .box5{
+        background-color: rgb(42, 237, 42);
+        border: 2px solid black;
+        border-radius: 5px;
+        height: 50px;
+        width: 150px;
+        text-align: center;
+        font-weight: bold;
+        position: relative;
+        animation: move1 5s infinite;
+        animation-timing-function: ease-in-out;
+    }
+    @keyframes move1 {
+        from{left: 0px;}
+        to{left: 300px;}
+        
+    }  
+}
